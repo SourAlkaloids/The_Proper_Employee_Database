@@ -37,6 +37,15 @@ public class EmployeeInfo{
     public String getLastName (){
 	return (lastName);
     }
+    public int getSex (){
+	return (sex);
+    }
+    public int getWorklocation (){
+	return (workLocation);
+    }
+    public double getDeductions (){
+	return (deductions);
+    }
 
 //Setters~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 void setEmpNumber (int sN){
@@ -65,6 +74,15 @@ void setEmpNumber (int sN){
 
     void setLastName (String lN){
     	lastName = lN;
+    }
+      void setSex (int s){
+    	sex = s;
+    }
+      void setWorkLocation (int wL){
+    	workLocation = wL;
+    }
+      void setDeductions (double d){
+    	deductions = d;
     }
     
 }
